@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Una cancion especial para ti </title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+      font-family: system-ui, -apple-system, sans-serif;
+      color: #444;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 2.5rem 2rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      max-width: 400px;
+      width: 100%;
+    }
+
+    h1 {
+      margin-bottom: 0.5rem;
+      color: #d81b60;
+      font-size: 1.6rem;
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    audio {
+      width: 100%;
+      outline: none;
+      border-radius: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Te amo corazon <3</h1>
+    <p>Dale play para escuchar:</p>
+
+    <!-- La ruta relativa apunta al archivo en tu repo -->
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+      Tu navegador no soporta el reproductor de audio.
+    </audio>
+  </div>
+
+</body>
+</html>
